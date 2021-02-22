@@ -9,8 +9,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install TODO.
 ```bash
 pip install -r requirements.txt
 
-upload the CSV file on drive and create a shareable link 
-with "Anyone with the link" option enabled and load 
+upload the CSV file on drive and create a shareable link with "Anyone with the link" option enabled and load 
 your database firstly on LOad CSV page
 
 Don't forget to change the Static path and the Template path
@@ -19,8 +18,7 @@ Don't forget to change the Static path and the Template path
 ## Note
 
 ```bash
-This project which is Pushed here is deployed version 
-hence consider making necessary changes to run it on 
+This project which is Pushed here is deployed version hence consider making necessary changes to run it on 
 your localServer
 ```
 
