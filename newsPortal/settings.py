@@ -30,9 +30,7 @@ ALLOWED_HOSTS = ['kni9ht.herokuapp.com', ]
 
 # Application definition
 
-# STATICFILES_DIRS = [
-#     'C:/Users/yoges/OneDrive/Documents/Fronted_Intership/news_scapper/static/',
-# ]
+
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
