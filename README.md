@@ -14,6 +14,12 @@ upload the CSV file on drive and create a shareable link with "Anyone with the l
 Don't forget to change the Static path and the Template path
 ```
 
+## Note
+
+```bash
+This project which is Pushed here is deployed version hence consider making necessary changes to run it on your localServer
+```
+
 ## Usage
 
 ```python
