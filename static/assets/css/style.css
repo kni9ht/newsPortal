@@ -72,22 +72,6 @@ nav > ul > li a:hover
     font-size: 30px;
 }
 
-/* .button
-{
-    font-size: 20px;
-    border-radius: 20%;
-    padding: 15px 32px;
-    background-color: transparent;
-    color: aqua;
-    text-decoration: none;
-}
-
-.button:hover
-{
-    border-bottom: 2px solid;
-    border-left: 2px solid;
-} */
-
 .button > img
 {
     height: 50px;
