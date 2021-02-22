@@ -1,6 +1,6 @@
 # newsPortal
 
-It's a news site design usign python framework Django,HTML5,CSS3.
+It's a news site design usign python framework Django,HTML5,CSS3 and Javascript.
 
 ## Installation
 
