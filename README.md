@@ -9,7 +9,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install TODO.
 ```bash
 pip install -r requirement.txt
 
-Admin Credentials are : [kni9ht:admin]
+upload the CSV file on drive and create a shareable link with "Anyone with the link" option enabled and load your database firstly on LOad CSV page
 
 Don't forget to change the Static path and the Template path
 ```
