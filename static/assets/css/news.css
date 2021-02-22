@@ -1,0 +1,55 @@
+.search {
+    position: absolute;
+    top: 155px;
+    left: 300px;
+    display: flex;
+}
+
+.searchbx > input {
+    height: 84px;
+    width: 710px;
+    border-radius: 15px;
+    font-size: 25px;
+    padding-left: 30px;
+    outline: none;
+}
+
+.btn > span
+{
+    margin-left: 25px;
+    border: 2px solid black;
+    width: 207px;
+    height: 84px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: #FBD72E;
+}
+
+.btn
+{
+    display: flex;
+    align-items: center;
+}
+
+.selection {
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    display: flex;
+}
+
+.selection select
+{
+    display: flex;
+    margin-left: 20px;
+    width: 191.18px;
+    height: 55.63px;
+    border-radius: 9px;
+    text-align: center;
+    justify-content: space-around;
+    outline: none;
+    font-size: 20px;
+}

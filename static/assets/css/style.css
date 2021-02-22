@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --font-wt-min: 300;
+    --font-wt-med: 400;
+    --font-wt-large: 700;
+    --back: #1E2126;
+    --prime: #6B6F7A;
+    --link: #FBD72E;
+}
+
+body
+{
+    background-color: var(--back);
+    /* background-image: url('back.png'); */
+}
+
+hr
+{
+    border: 3px solid var(--link);
+}
+
+.navbar
+{
+    display: flex;
+    background-color: var(--back);
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+nav > ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav > ul > li 
+{
+    padding-left: 60px;
+}
+
+nav > ul > li > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+nav > ul > li a:hover
+{
+    border-bottom: 3px solid var(--link);
+    color: var(--link);
+}
+
+.navbar > .brand
+{
+    color: var(--prime);
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* .button
+{
+    font-size: 20px;
+    border-radius: 20%;
+    padding: 15px 32px;
+    background-color: transparent;
+    color: aqua;
+    text-decoration: none;
+}
+
+.button:hover
+{
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+} */
+
+.button > img
+{
+    height: 50px;
+}
+
+.container
+{
+    /* background-color: aqua; */
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-areas: 
+    "path img"
+    "sidebar img"
+    "sidebar img";
+    grid-gap: 0.1rem;
+}
+#path
+{
+    grid-area: path;
+    display: flex;
+}
+
+#sidebar
+{
+    display: flex;
+    grid-area: sidebar;
+}
+
+#img
+{
+    display: flex;
+    grid-area: img;
+}
+
+#path > span
+{
+    color: var(--prime);
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#sidebar > span
+{
+    font-size: 50px;
+    margin-left: 20%;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+
+#ts
+{
+    background-color: var(--back);
+}
+
+#img > img
+{
+    margin-left: 20px;
+    margin-top: 10%;
+}

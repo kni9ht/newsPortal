@@ -1,0 +1,24 @@
+{%extends 'boiler.html'%}
+{%load static%}
+{%block body%}
+<form action="/link" method="POST">
+    {% csrf_token %}
+    <div class="cont">
+        <section class="link">
+            <div id='hd'>
+                <span>
+                    <p>
+                        Submit your Google drive link
+                    </p>
+                </span>
+            </div>
+            <div id="inp">
+                <input type="text" name="link" id="link" placeholder="Paste the Link here" autocomplete="off">
+            </div>
+            <div id="bnt">
+                <input type="submit" id="but" value="Submit">
+            </div>
+        </section>
+    </div>
+</form>
+{%endblock%}

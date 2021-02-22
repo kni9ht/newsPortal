@@ -1,0 +1,83 @@
+.cont
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+
+.link
+{
+    border-radius: 25px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "hd hd"
+    "inp inp"
+    "bnt bnt";
+}
+
+#inp
+{
+    grid-area: inp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inp > input
+{
+    width: 100%;
+    height: 84px;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    outline: none;
+    border: 0px;
+    background-color: #6B6F7A;
+    color: white;
+    font-size: 20px;
+}
+
+#bnt
+{
+    grid-area: bnt;
+    display: flex;
+    justify-content: center;
+}
+
+#bnt > input
+{
+    height: 84px;
+    width: 207px;
+    border-radius: 15px;
+    outline: none;
+    border: 0px;
+    background-color: aqua;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#hd
+{
+    grid-area: hd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hd > span > p
+{
+    font-size: 50px;
+    color: white;
+}
+
+#bnt > input ::placeholder
+{
+    color: white;
+    opacity: 1;
+}

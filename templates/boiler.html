@@ -1,0 +1,53 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet"
+        href="{%static 'C:/Users/yoges/OneDrive/Documents/Fronte_Intership/newsPortal/static/assets/css/style.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="{%static 'C:/Users/yoges/OneDrive/Documents/Fronte_Intership/newsPortal/static/assets/css/news.css'%}">
+    <link rel="stylesheet"
+        href="{%static 'C:/Users/yoges/OneDrive/Documents/Fronte_Intership/newsPortal/static/assets/css/load.css'%}">
+
+</head>
+
+<body>
+    <!-- <hr> -->
+    <div class="navbar">
+        <span class="brand">
+            <a href="/home" style="text-decoration: none; color: #6B6F7A;">
+                <p>News Portal</p>
+            </a>
+        </span>
+        <nav>
+            <ul>
+                <li id="home"><a href="/home">Home</a></li>
+                <li id="news"><a href="/news">News</a></li>
+                <li id="contact"><a href="/load">Load Csv</a></li>
+                <li id="about"><a href="#">About us</a></li>
+            </ul>
+        </nav>
+        <div style="display: flex;justify-content: space-around;">
+            <span>
+                <p style="margin-right: 30px;margin-top: 15px;border-right: 2px solid #6B6F7A;padding-right: 20px;">ENG
+                </p>
+            </span>
+            <span style="border-radius: 50%;overflow: hidden;">
+                <a href="#" class="button"><img
+                        src="{%static 'C:/Users/yoges/OneDrive/Documents/Fronte_Intership/newsPortal/static/assets/img/pro.svg'%}"
+                        alt=""></a>
+            </span>
+        </div>
+    </div>
+    {%block body%}{%endblock body%}
+</body>
+
+</html>
