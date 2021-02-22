@@ -19,6 +19,7 @@ from . import view
 from news import urls
 from django.views.static import serve
 from django.conf.urls import url
+from . import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
