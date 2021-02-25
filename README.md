@@ -18,8 +18,8 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install TODO.
 ## Note
 
 ```bash
-This project which is Pushed here is deployed version hence consider making necessary changes to run it on 
-your localServer
+This project which is Pushed here is deployed version hence consider making necessary 
+changes to run it on your localServer
 ```
 
 ## Usage
