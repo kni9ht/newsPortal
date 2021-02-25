@@ -21,8 +21,8 @@ def link(request):
     df = pd.read_csv(path)
     data = df.to_dict('records')
     client = MongoClient(
-        "mongodb+srv://kni9ht:iamHunter@cr47.ycngh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-    db = client.get_database('exel')
-    record = db.csv_data
+        "<Mongo client id>")
+    db = client.get_database('<Database name>')
+    record = db.<Collection name>
     record.insert_many(data, ordered=False)
     return redirect(request.META['HTTP_REFERER'])
