@@ -21,9 +21,9 @@ def query(request):
     print(cat)
     print(search)
     client = MongoClient(
-        'mongodb+srv://kni9ht:iamHunter@cr47.ycngh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
-    db = client.get_database('exel')
-    record = db.csv_data
+        '<Mongo Client id>')
+    db = client.get_database('<Databse name>')
+    record = db.<Collection name>
     tags = list(record.find_one({}))
     # This code search for the phrase in the database
     for tag in tags:
