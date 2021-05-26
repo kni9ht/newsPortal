@@ -2,6 +2,9 @@
 
 It's a news site design usign python framework Django,HTML5,CSS3 and Javascript.
 
+## Deployed Link
+* https://kni9ht.herokuapp.com/
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install TODO.
